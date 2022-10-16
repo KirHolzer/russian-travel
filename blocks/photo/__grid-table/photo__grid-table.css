@@ -1,0 +1,9 @@
+.photo__grid-table {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  margin: 0 auto 92px;
+  justify-items: center;
+}
