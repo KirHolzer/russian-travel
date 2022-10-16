@@ -2,23 +2,26 @@
   display:grid;
   grid-template-columns: 460px auto;
   margin-bottom: 79px;
+  gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px auto;
+    gap: 48px 32px;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px auto;
+    gap: 48px 28px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .place {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     margin-bottom: 50px;
   }
 }

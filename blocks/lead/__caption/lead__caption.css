@@ -7,4 +7,5 @@
   text-align: left;
   text-transform: uppercase;
   font-style: normal;
+  align-self: flex-start;
 }

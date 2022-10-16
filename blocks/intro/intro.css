@@ -8,11 +8,13 @@
 }
 @media screen and (max-width: 768px) {
   .intro {
+    width: calc(100% - 24px*2);
     margin: 88px auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .intro {
+    width: calc(100% - 16px*2);
     margin: 64px auto;
   }
 }
