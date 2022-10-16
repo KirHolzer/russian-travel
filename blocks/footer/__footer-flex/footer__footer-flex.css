@@ -1,5 +1,5 @@
 .footer__footer-flex{
-  max-width: 1280px;
+  width: calc(100% - 48px*2);
   margin: 0 auto;
   padding-bottom: 24px;
   display: flex;
@@ -7,4 +7,20 @@
   justify-content: space-between;
   box-sizing: border-box;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: calc(100% - 48px*2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__footer-flex{
+    width: calc(100% - 24px*2);
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__footer-flex{
+    max-width: 186px;
+    margin:0 0 0 16px ;
+  }
 }

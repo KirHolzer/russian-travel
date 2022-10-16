@@ -7,3 +7,14 @@
   font-style: normal;
   font-size: 30px;
 }
+
+@media screen and (max-width: 1250px) {
+  .lead__subtitle {
+    margin:32px auto 56px auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lead__subtitle  {
+    margin:16px auto 40px auto;
+  }
+}
