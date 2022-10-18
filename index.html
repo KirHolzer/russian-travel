@@ -11,23 +11,23 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип сайта Россия">
-      <nav>
         <ul class="list header__lang-links">
-          <li class="list-item header__lang-link">
+          <li class="list">
             <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           </li>
-          <li class="list-item header__lang-link">
+          <li class="list">
             <a class="header__lang-link" href="#">En</a>
           </li>
         </ul>
-      </nav>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта пути по всей России">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__image-figure">
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта пути по всей России">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -38,70 +38,81 @@
                 — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
                 километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
+
+<!-- ТО КАК ХОЧЕТ РЕВЬЮЕР !!!       <ul class="list">-->
+<!--          <li class="list">-->
+<!--            <p class="intro__info">Часовых поясов <span class="intro__numbers">11</span></p>-->
+<!--          </li>-->
+<!--          <li class="list">-->
+<!--            <p class="intro__info">Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span></p>-->
+<!--          </li>-->
+<!--          <li class="list">-->
+<!--            <p class="intro__info">Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span></p>-->
+<!--          </li>-->
+<!--          <li class="list">-->
+<!--            <p class="intro__info">Природных заповедников <span class="intro__numbers">105</span></p>-->
+<!--          </li>-->
+<!--          <li class="list">-->
+<!--            <p class="intro__info">Аэропортов <span class="intro__numbers">241</span></p>-->
+<!--          </li>-->
+<!--        </ul>-->
+
         <ul class="list">
-          <li class="list-item">
-            <p class="intro__info">Часовых поясов <span class="intro__numbers">11</span></p>
-          </li>
-          <li class="list-item">
-            <p class="intro__info">Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span></p>
-          </li>
-          <li class="list-item">
-            <p class="intro__info">Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span></p>
-          </li>
-          <li class="list-item">
-            <p class="intro__info">Природных заповедников <span class="intro__numbers">105</span></p>
-          </li>
-          <li class="list-item">
-            <p class="intro__info">Аэропортов <span class="intro__numbers">241</span></p>
-          </li>
+          <li class="list intro__info">Часовых поясов <span class="intro__numbers">11</span></li>
+          <li class="list intro__info">Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span></li>
+          <li class="list intro__info">Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span></li>
+          <li class="list intro__info" >Природных заповедников <span class="intro__numbers">105</span></li>
+          <li class="list intro__info">Аэропортов <span class="intro__numbers">241</span></li>
         </ul>
+
+
       </section>
       <section class="photo">
         <ul class="list photo__grid-table">
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
           </li>
-          <li class="list-item ">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на снежные горы">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-tuman.jpg" alt="Собака на сене">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-sochi.jpg" alt="Лес в тумане">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-arisa.jpg" alt="Машине на замершом льду">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-elbrus.jpg" alt="Вершина Эльбруса">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-kondratiev.jpg" alt="Дорожный знак на фоне волнорезов">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-kamchatka-1.jpg" alt="Вид на горы Камчатки">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-baikal-2.jpg" alt="Скалы на Байкале">
           </li>
-          <li class="list-item">
+          <li class="list">
             <img class="photo__grid-item" src="./images/photo-grid-ergaki.jpg" alt="Горные вершины в тумане">
           </li>
         </ul>
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Пейзаж - Курская коса">
           <div class="place__paragraph-container">
@@ -111,12 +122,13 @@
               исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Пейзаж -  Кольский полуостров">
           <div class="place__paragraph-container">
@@ -126,12 +138,13 @@
             <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="Пейзаж - Алтай">
           <div class="place__paragraph-container">
@@ -142,12 +155,13 @@
               увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Пейзаж - зимний Байкал">
           <div class="place__paragraph-container">
@@ -161,12 +175,13 @@
               фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Пейзаж - Карелия">
           <div class="place__paragraph-container">
@@ -176,7 +191,8 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
+
         </section>
           <section class="cover">
             <a class="cover__background link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -186,30 +202,24 @@
               </p>
             </a>
             </section>
-
-<!--        <section class="container">-->
-<!--          <img class="image" href="https://stampsy.com/na-elektrichkakh-do-baikala" />-->
-<!--          <p>dfjgnkdjfn</p>-->
-<!--        </section>-->
-
         </main>
         <footer class="footer">
           <div class="footer__footer-flex">
             <nav class="footer__nav">
               <ul class="list footer__links">
-                <li class="list-item footer__list-item">
+                <li class="list">
                   <a class="footer__link link" href="https://yandex.ru/maps" target="_blank" title="Яндекс.Карты">Карты</a>
                 </li>
-                <li class="list-item footer__list-item">
+                <li class="list">
                   <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank" title="Яндекс.Погода">Погода</a>
                 </li>
-                <li class="list-item footer__list-item">
+                <li class="list">
                   <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank" title="Яндекс.Расписание">Расписание</a>
                 </li>
-                <li class="list-item footer__list-item">
+                <li class="list">
                   <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank" title="Яндекс.Календарь">Календарь</a>
                 </li>
-                <li class="list-item footer__list-item">
+                <li class="list">
                   <a class="footer__link link" href="https://travel.yandex.ru" target="_blank" title="Яндекс.Путешествия">Путешествия</a>
                 </li>
               </ul>
