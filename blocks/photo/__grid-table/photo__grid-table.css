@@ -8,12 +8,10 @@
 }
 @media screen and (max-width: 1024px) {
   .photo__grid-table {
-    width: 100%;
     gap: 14px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
-
 @media screen and (max-width: 780px) {
   .photo__grid-table {
     width: calc(100% - 24px*2);
@@ -22,7 +20,6 @@
     margin-bottom: 88px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .photo__grid-table {
     width: calc(100% - 16px*2);

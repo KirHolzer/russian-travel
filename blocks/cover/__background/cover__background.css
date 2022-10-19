@@ -15,7 +15,7 @@
   position: relative;
   min-height: 740px;
   box-sizing: border-box;
-
+  z-index: 1;
 }
 .cover__background::before {
   width: 100%;
@@ -28,6 +28,7 @@
   background-color: #2A2C2F;
   opacity: .3;
   transition: opacity 1.4s linear;
+  z-index: -1;
 
 }
 
@@ -35,8 +36,6 @@
   opacity: .8;
   cursor: pointer;
 }
-
-
 
 @media screen and (max-width: 1050px) {
   .cover__background  {

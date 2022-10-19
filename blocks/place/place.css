@@ -1,7 +1,7 @@
 .place {
   display:grid;
   grid-template-columns: 460px auto;
-  margin-bottom: 79px;
+  margin-bottom: 92px;
   gap: 48px 40px;
 }
 
@@ -15,13 +15,15 @@
   .place {
     grid-template-columns: 340px auto;
     gap: 48px 28px;
+    margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 480px) {
   .place {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 66px;
+    gap: 32px;
   }
 }
