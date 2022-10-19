@@ -7,6 +7,7 @@
   padding: 0;
   align-self: flex-end;
 }
+
 @media screen and (max-width: 480px) {
   .footer__copyright{
     max-width: 186px;

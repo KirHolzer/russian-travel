@@ -8,7 +8,6 @@
   font-size: 30px;
   font-weight: 400;
 }
-
 @media screen and (max-width: 1050px) {
   .lead__subtitle {
     margin-bottom: 56px;
