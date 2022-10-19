@@ -17,6 +17,26 @@
   box-sizing: border-box;
 
 }
+.cover__background::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity 1.4s linear;
+
+}
+
+.cover__background:hover::before {
+  opacity: .8;
+  cursor: pointer;
+}
+
+
 
 @media screen and (max-width: 1050px) {
   .cover__background  {

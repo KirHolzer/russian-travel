@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 @media screen and (max-width: 1024px) {
-  .lead__image {
+  .footer__footer-flex {
     width: calc(100% - 48px*2);
   }
 }

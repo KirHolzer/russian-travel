@@ -3,21 +3,21 @@
   height: 213px;
 }
 @media screen and (max-width: 1024px) {
-  .photo-grid__item {
+  .photo__grid-item {
     width: 300px;
     height: 225px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .photo-grid__item {
+  .photo__grid-item {
     width: 352px;
     height: 264px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .photo-grid__item {
+  .photo__grid-item {
     width: 288px;
     height: 216px;
   }
